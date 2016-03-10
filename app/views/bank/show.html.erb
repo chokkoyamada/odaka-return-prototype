@@ -1,0 +1,166 @@
+<div class='container-fluid'>
+  <% if @login_success %>
+    <div class='row'>
+      <div class='col-md-4 col-md-offset-8'>こんにちは、山田太郎さん  <a href='/mypage'>マイページ </a> <a href='/streaming?logout_success=1'>ログアウト</a></div>
+    </div>
+  <% end %>
+  <div class='row'>
+    <div class='col-md-10'>
+      <h1>「小高ワーカーズベース」の詳細</h1>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          基本情報
+        </div>
+        <div class="panel-body">
+          <table class='table table-bordered'>
+            <tbody>
+              <tr>
+                <th>名称</th>
+                <td>小高ワーカーズベース</td>
+              </tr>
+              <tr>
+                <th>説明</th>
+                <td>
+                  <p>2014年5月に『小高ワーカーズベース』事業を立ち上げました。目指しているのは、小高区に帰還する、または帰還を検討している住民の暮らしを支えるビジネスの創出です。</p>
+                  <p> 
+                そのためにまず始めたのがコワーキングスペースの運営を通じた住民や来訪者の拠点づくりです。JR小高駅前に電源やWi-fiが使えるオフィススペースを設置し、作業やミーティングができる環境を整備することにより、事業や活動を生み出す拠点として住民だけでなく来訪者にも活用していただけるようになりました。</p></td>
+              </tr>
+              <tr>
+                <th>登録番号</th>
+                <td>27-ie99</td>
+              </tr>
+              <tr>
+                <th>分類</th>
+                <td>時間貸し</td>
+              </tr>
+              <tr>
+                <th>物件所在地</th>
+                <td>小高区東町１丁目</td>
+              </tr>
+              <tr>
+                <th>使える用途</th>
+                <td>
+                  <button class="btn btn-info">会議・研修</button>
+                  <button class="btn btn-info">勉強会</button>
+                  <button class="btn btn-info">ペット（犬・猫）</button>
+                  <button class="btn btn-info">料理</button>
+                </td>
+              </tr>
+              <tr>
+                <th>使えない用途</th>
+                <td>
+                  <button class="btn btn-danger">音楽演奏</button>
+                  <button class="btn btn-danger">花火</button>
+                </td>
+              </tr>
+              <tr>
+                <th>料金</th>
+                <td>1000円/時間</td>
+              </tr>
+              <tr>
+                <th>利用の際の決まり</th>
+                <td>利用終了後は現状復帰でお願いします。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class='panel-heading'>
+          地図
+        </div>
+        <div class='panel-body'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12650.664405885775!2d140.9953699!3d37.5629298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc5d7e58e6ad242c1!2z5bCP6auY44Ov44O844Kr44O844K644OZ44O844K5!5e0!3m2!1sja!2sjp!4v1457197156528" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class='panel-heading'>
+          写真
+        </div>
+        <div class='panel-body'>
+          <div class='row'>
+            <div class='col-md-4'>
+              <img src='<%= asset_path "odakaworkersbase/owb01.jpg" %>' width=300 height=200 />
+              (2016/3/6撮影)
+            </div>
+            <div class='col-md-4'>
+              <img src='<%= asset_path "odakaworkersbase/owb02.jpg" %>' width=300 height=200 />
+              (2016/3/6撮影)
+            </div>
+            <div class='col-md-4'>
+              <img src='<%= asset_path "odakaworkersbase/owb03.jpg" %>' width=300 height=200 />
+              (2016/3/6撮影)
+            </div>
+            <div class='col-md-4'>
+              <img src='<%= asset_path "odakaworkersbase/owb04.jpg" %>' width=300 height=200 />
+              (2016/3/6撮影)
+            </div>
+            <div class='col-md-4'>
+              <img src='<%= asset_path "odakaworkersbase/owb05.jpg" %>' width=300 height=200 />
+              (2016/3/6撮影)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class='panel-heading'>
+          内部ストリートビュー
+        </div>
+          <div class='row'>
+        <div class='panel-body'>
+            <div class='panel panel-default col-md-6'>
+              <div class='panel-heading'>
+                オフィススペース
+              </div>
+              <div class='panel-body'>
+                <%= link_to image_tag(asset_path('gg01.png'), :size=> "300x200"), "https://www.google.com/maps/@37.5631781,140.9954244,3a,75y,97.48h,68.55t/data=!3m8!1e1!3m6!1s-47fiZchJ8Zk%2FVtuFhFjIbeI%2FAAAAAAAAI8Y%2FAizzK2W9GeA!2e4!3e11!6s%2F%2Flh4.ggpht.com%2F-47fiZchJ8Zk%2FVtuFhFjIbeI%2FAAAAAAAAAAA%2FgiY1xhgbZaA%2Fno%2Fphoto.jpg!7i8192!8i4096" %><br />
+              (2016/3/6撮影)
+              </div>
+            </div>
+            <div class='panel panel-default col-md-6'>
+              <div class='panel-heading'>
+                工房
+              </div>
+              <div class='panel-body'>
+                <%= link_to image_tag(asset_path('gg02.png'), :size=> "300x200"), "https://www.google.com/maps/@37.5633719,140.9953703,3a,75y,90t/data=!3m8!1e1!3m6!1s-Y0easRZUsTU%2FVtuEnsJL-OI%2FAAAAAAAAI8M%2F7zhuD_wJCAk!2e4!3e11!6s%2F%2Flh5.ggpht.com%2F-Y0easRZUsTU%2FVtuEnsJL-OI%2FAAAAAAAAAAA%2Fst132KD4ux4%2Fno%2Fphoto.jpg!7i7962!8i4538" %><br />
+              (2016/3/6撮影)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class='panel-heading'>
+          オーナーより一言
+        </div>
+        <div class='panel-body'>
+           <div class='row'>
+             <div class='col-md-2'>
+               <img src="<%= asset_path "owner.png" %>" alt="" width='150' height='150' />
+						 </div>
+						 <div class='col-md-10'>
+							 <div class="popover right show" style="position:relative; max-width:100%;">
+								 <div class="arrow"></div>
+								 <div class="popover-content">
+									 <h3>
+										 駅に近くて交通の便がいいです。　駐車場もあります。
+										 双葉屋旅館の隣なので宿泊の際も安心。
+										 ご利用お待ちしています！
+									 </h3>
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+        </div>
+      </div>
+
+      <%= button_to "予約する", '1/apply', :method => "get", :class => 'btn btn-primary' %>
+      <%= button_to "戻る", '/bank?login_success=1', :method => "get", :class => 'btn btn-default' %>
+    </div>
+  </div>
+</div>

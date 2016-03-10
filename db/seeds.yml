@@ -1,0 +1,71 @@
+akiya:
+
+ - id: 26-ie005
+   address: 鹿島区永田字永田
+   dimensions: 178.5
+   offer_type: 空き家売却
+   price: 500万円程度
+   is_public: true
+
+ - id: 27-ie008
+   address: 小高区泉沢字弥惣さく
+   dimensions: 127.08
+   offer_type: 空き家売却
+   price: 2500万円程度
+   is_public: false
+
+ - id: 27-ie010
+   address: 原町区仲町一丁目
+   dimensions: 246.66
+   offer_type: 空き家売却
+   price: 980万円程度
+   is_public: false
+
+ - id: 27-ie011
+   address: 小高区下浦字坊西
+   dimensions: 229.29
+   offer_type: 空き家売却
+   price: 1950万円程度
+   is_public: false
+
+ - id: 27-ie12
+   address: 原町区牛越字搗屋前
+   dimensions: 166.47
+   offer_type: 空き家売却
+   price: 3000万円程度
+   is_public: false
+
+ - id: 27-ie13 
+   address: 小高区飯崎字西原
+   dimensions: 106.59
+   offer_type: 空き家売却
+   price: 1200万円程度
+   is_public: true
+
+ - id: 27-ie014 
+   address: 小高区小高字八景
+   dimensions: 114.31
+   offer_type: 空き家売却
+   price: 1200万円程度
+   is_public: false
+
+ - id: 27-ie015
+   address: 原町区雫字塔場下
+   dimensions: 105.16
+   offer_type: 空き家賃貸
+   price: 月額9万円程度
+   is_public: false
+
+ - id: 27-ie016 
+   address: 原町区南町二丁目
+   dimensions: 169.65
+   offer_type: 空き家売却
+   price: 2600万円程度
+   is_public: false
+
+ - id: 27-ie099
+   address: 小高区東町１丁目
+   dimensions: 100.00
+   offer_type: スペース賃貸
+   price: 1000円／時間
+   is_public: false

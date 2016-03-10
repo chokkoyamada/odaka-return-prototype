@@ -1,0 +1,44 @@
+<div class='container'>
+  <div class='row'>
+    <div class="col-md-8 col-md-offset-2">
+      <img src="<%= asset_path "logo.gif" %>" alt=""  />
+      <h1>小高区帰還支援　物件市場</h1>
+      
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>IDとパスワードでログイン</h3>
+        </div>
+        <div class="panel-body">
+        <form>
+          <div class="form-group">
+            <label for="inputEmail1">住民ID</label>
+            <input type="email" class="form-control" id="inputEmail1" placeholder="住民ID">
+          </div>
+          <div class="form-group">
+            <label for="inputPassword1">パスワード</label>
+            <input type="password" class="form-control" id="inputPassword1" placeholder="パスワード">
+          </div>
+          <button type="submit" class="btn btn-primary">ログイン</button>
+        </form>
+      </div>
+      
+      <div class="panel panel-info">
+        <div class='panel-heading'>
+          <h3>QRコードからログインする</h3>
+        </div>
+        <div class='panel-body qrcode'>
+          <img src="<%= asset_path "qrcode.jpg" %>" alt="" width="200" height="200" />
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class='panel-heading'>
+          <h3>ゲストとしてログインする</h3>
+        </div>
+        <div class='panel-body'>
+          <%= button_to 'ゲストログイン', '/bank', method: :get, class: "btn btn-warning" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
